@@ -25,7 +25,7 @@
 
 ### MY EDUCATION:
 - **2009-2014 [BelSUT (Belarusian State University of Transport) / Mechanical](https://www.bsut.by/), electrical and mechanical engineer (full-time/budget)**
-- **01.2020-... Interactive self-education online-courses [CSS](https://ru.code-basics.com/languages/css), [HTML](https://ru.code-basics.com/languages/html), [JS](https://ru.code-basics.com/languages/javascript) and other sources**
+- **01.2020-... Interactive self-education online-courses [CSS](https://ru.code-basics.com/languages/css), [HTML](https://ru.code-basics.com/languages/html), [JS](https://ru.code-basics.com/languages/javascript) and [other sources](https://learn.javascript.ru/)**
 - **07.2021-... RS School [stage0 "JS/Frontend development course, preparatory stage"](https://github.com/rolling-scopes-school/tasks/tree/master/stage0)**
 - **All time: constant selfeducation and practice**
 
