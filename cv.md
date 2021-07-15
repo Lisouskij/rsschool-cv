@@ -2,7 +2,9 @@
 # LISOUSKI PETR 
 ### Beginner in javascript web-engineering
 
-## CONTACTS FOR COMMUNICATION:
+## [MY VIDEO PRESENTATION](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## CONTACTS:
 - **Phone:** +375293260252  
 - **Email:** blackfox.pit@gmail.com  
 - **Discord:** [Petr Lisouskij](https://discord.gg/QEpjyNyzPX)
@@ -65,5 +67,5 @@
                   </aside>
                </section>
           </main> 
+          
 
-## [MY VIDEO PRESENTATION](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
