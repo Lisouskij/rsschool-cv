@@ -5,9 +5,9 @@
 ## [MY VIDEO PRESENTATION](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## CONTACTS:
-- **Phone:** +375293260252  
+- **Phone:** +48 519 513 439  
 - **Email:** blackfox.pit@gmail.com  
-- **Discord:** [Petr Lisouskij](https://discord.gg/QEpjyNyzPX)
+- **Discord:** [Lisouskij#5313](https://discord.gg/DDCC9QR6)
 
 ## ABOUT ME:
 
@@ -18,7 +18,7 @@
 - **JavaScript**
 
 ### MY ENGLISH: 
-- **A1+**
+- **B2+**
 
 ### MY WORK EXPERIENCE:
 
