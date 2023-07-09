@@ -1,143 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
+    <link href="CV_css.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-1000px, initial-scale=1.0">
     <link rel="icon" href="faviconcv64.png" type="image/png" sizes="64x64">
     <link rel="icon" href="faviconcv32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="faviconcv16.png" type="image/png" sizes="16x16">
         <title>LISOUSKI PETR | RS school CV</title>
         <nav class="fixed"> 
-            <ul>
-                <li class="Orbitron-font-h3"><a href="#anchor-AM">ABOUT ME</a></li> <li class="Orbitron-font-h3"><a href="#anchor-CE">CODE EXAMPLE</a></li> <li class="Orbitron-font-h3"><a href="#anchor-C">CONTACTS</a></li> <li class="Orbitron-font-h3"><a href="#anchor-VP">VIDEO PRESENTATION</a></li>
-            </ul>
+            <table>
+                <thead>
+                     <tr>
+                        <th><a href="#anchor-C"><button class="Orbitron-font-h5">CONTACTS</button></a></th> 
+                        <th><a href="#anchor-AM"><button class="Orbitron-font-h5">ABOUT ME</button></a></th>
+                        <th><a href="#anchor-E"><button class="Orbitron-font-h5">EDUCATION</button></a></th>
+                        <th><a href="#anchor-WP"><button class="Orbitron-font-h5">WORK EXPERIENCE</button></a></th>
+                        <th><a href="#anchor-Go"><button class="Orbitron-font-h5">GOALS</button></a></th>
+                        <th><a href="#anchor-CE"><button class="Orbitron-font-h5">CODE EXAMPLE</button></a></th>
+                     </tr>
+                </thead>
+        </table>
         </nav>
-        <style>
-            @font-face {
-                font-family: Orbitron;
-                src: local("Orbitron"), url("Orbitron-VariableFont_wght.ttf");
-            }
-            @font-face {
-                font-family: Plex-bold;
-                src: local("IBMPlexMono-bold"), url("IBMPlexMono-Bold.ttf");
-            }
-            @font-face {
-                font-family: Plex-regular;
-                src: local("IBMPlexMono-Regular"), url("IBMPlexMono-Regular.ttf");
-            }    
-            @font-face {
-                font-family: Plex-light;
-                src: local("IBMPlexMono-light"), url("IBMPlexMono-Light.ttf");
-            }
-
-            @keyframes color-change {
-                0% {
-                    color: #000000;
-                    }
-                   
-                25% {
-                    color: #972f2f;
-                    }
-
-                50% {
-                    color: #457e7e;
-                    }
-    
-                100% {
-                    color: #000000;
-                    }
-            }
-
-            .black-white {
-                 animation: color-change 10s infinite;
-           }
-
-            .Orbitron-font-h1 { 
-                 font: bold 36px Orbitron, monospace;
-            }
-
-            .Orbitron-font-h2 { 
-                 font: bold 1.75em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h3 { 
-                 font: bold 1.5em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h4 { 
-                 font: bold 1.25em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h5 { 
-                 font: bold 1em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h6 { 
-                 font: bold 0.75em Orbitron, monospace;
-            }
-
-            .Plex-bold { 
-                 font: bold 20px Plex-bold, monospace;
-            }
-            .Plex-regular { 
-                 font:  20px Plex-regular, monospace;
-            }
-            .Plex-light {
-                 font:  14px Plex-light, monospace;
-            }
-
-            .outer {
-                 border: 1px solid #ffffff;
-            }
-            .inner {
-                 width: 1000px;
-                 border: 1px solid #ececec;
-                 margin: auto;
-            }
-
-            .absolute-position-name {
-                position: absolute;
-                top: px;
-                left: px;
-                right: 600px;
-                bottom: px;
-
-            }
-
-            .relative-position {
-                position: relative;
-                top: px;
-                left: 600px;
-                right: px;
-                bottom: px;
-            }
-
-            .footer {
-                text-align: center;
-                background-color:#dfdfdf;
-               }
-
-            .fixed {
-                position: fixed;
-                background-color:#dfdfdf;
-            }
-        </style>
-
+       
 </head>
-<header class="relative-position">
+<header class="relative-position-header shadow-span">
     <h1 class="Orbitron-font-h1 black-white">LISOUSKI PETR</h1>
     <h4 class="Orbitron-font-h4">beginner JS-web-engineer</h4>
     <br>
     <img class="" title="I SEE YOU" src="LogoLPCVv2fix.jpg" alt="Foto Lisouski Petr 2019 year in Venice" width="150" height="246.2">
 
 </header>
-
 <body class="inner">
- <main>
-  <section>
-     <h2 class="Orbitron-font-h2" id="anchor-VP" title="Presentation in preparation"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">VIDEO PRESENTATION</a></h2>
-  </section>
+ <main class="main shadow-span">
 
   <address>
      <h2 id="anchor-C" class="Orbitron-font-h2">CONTACTS:</h2>
@@ -171,7 +67,7 @@
   </section>
    
   <section>
-     <h2 class="Orbitron-font-h2">WORK EXPERIENCE:</h2>
+     <h2 id="anchor-WP" class="Orbitron-font-h2">WORK EXPERIENCE:</h2>
      <ul class="Plex-regular">
          <li><strong>2014-2021:</strong> <a href="https://minsk.rw.by/about/structure/locomotive_and_motorvagonnye_de/locomotive_depot_molodechno/">Locomotive depot Molodechno Unitary enterprise "Minsk branch of the Belarusian Railway"</a>, motorman assistant, power engineer, process engineer</li>
          <li><strong>07.2021-...:</strong> Education's projects in RS School <a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0">stage0 "JS/Frontend development course, preparatory stage"</a>, student</li>
@@ -179,7 +75,7 @@
   </section>
 
   <section>
-     <h2 class="Orbitron-font-h2">EDUCATION:</h2>
+     <h2 id="anchor-E"class="Orbitron-font-h2">EDUCATION:</h2>
      <ul class="Plex-regular">
          <li> <strong>2009-2014:</strong> <a href="https://www.bsut.by">BelSUT (Belarusian State University of Transport / Mechanical]</a>, electrical and mechanical engineer (full-time/budget)</li>
          <li> <strong>01.2020-...:</strong> Interactive self-education online-courses <a href="https://ru.code-basics.com/languages/css">CSS</a>, <a href="https://ru.code-basics.com/languages/html">HTML</a>, <a href="https://ru.code-basics.com/languages/javascript">JS</a> and <a href="https://learn.javascript.ru/">other sources</a></li>
@@ -189,7 +85,7 @@
   </section>
 
   <section>
-     <h2 class="Orbitron-font-h2">GOAL:</h2>
+     <h2 id="anchor-Go" class="Orbitron-font-h2">GOALS:</h2>
      <ul class="Plex-regular">
          <li>Today i should be better than yesterday</li>
          <li>Get more knowledge</li>
@@ -214,7 +110,7 @@
 
   <section> 
      <h2 id="anchor-CE" class="Orbitron-font-h2">CODE EXAMPLE:</h2>
-     <pre><code class="Plex-light"> 
+     <div class="background-code"><pre><code> 
    &lt;style&gt;
                @font-face {
                 font-family: Orbitron;
@@ -253,53 +149,37 @@
 
             .black-white {
                 animation: color-change 10s infinite;
-           }
+            }
 
             .Orbitron-font-h1 { 
                 font: bold 36px Orbitron, monospace;
             }
-
-            .Orbitron-font-h2 { 
-                font: bold 1.75em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h3 { 
-                font: bold 1.5em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h4 { 
-                font: bold 1.25em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h5 { 
-                font: bold 1em Orbitron, monospace;
-            }
-
-            .Orbitron-font-h6 { 
-                font: bold 0.75em Orbitron, monospace;
-            }
-
-            .Plex-bold { 
-                font: bold 20px Plex-bold, monospace;
-            }
-            .Plex-regular { 
-                font:  20px Plex-regular, monospace;
-            }
-            .Plex-light {
-                font:  14px Plex-light, monospace;
-            }
-             
+                     
     &lt;/style&gt;
-     </code></pre>
+     </code></pre></div>
+  </section> 
+
+  <section>
+        <h2 class="Orbitron-font-h2" id="anchor-VP" title="Presentation in preparation"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">VIDEO PRESENTATION</a></h2>
+        <article class="video">   
+            <iframe width="400" height="300" src="https://www.youtube.com/embed/dDMye6dJ0Ps" title="YouTube video player" frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+            
+        </article>
+           
+  </section>
 
  </main>
 
 </body>
  
 <footer class="footer">
-    <div class="inner" >
-        <pre><a href="https://rs.school/js/"><img title="RS school course" src="rs_school_js_logo.svg" alt="RS school JS logo" width="100" height="62.26"></a>                                             <time datetime="2021-07-25 21:00" title="created on 25.07.2021" class="Plex-regular"><strong>2021&#169</strong></time>                                                              <a href="https://github.com/Lisouskij"><img title="I am in GitHub" src="GitHub_logo.png" alt="GitHubLogo" width="68.94" height="62.26"></a><pre>
-        
+    <div class="inner shadow-span">
+        <p>
+        <a href="https://rs.school/js/"><img class="logoRS" title="RS school course" src="rs_school_js_logo.svg" alt="RS school JS logo" width="100" height="62.26"></a>
+        <time datetime="2021-07-25 21:00" title="created on 25.07.2021" class="Plex-regular"><strong>2021&#169</strong></time>
+        <a href="https://github.com/Lisouskij"><img class="logoGitHub" title="I am in GitHub" src="GitHub_logo.png" alt="GitHubLogo" width="68.94" height="62.26"></a>
+        </p>
     </div>
 </footer>
 
